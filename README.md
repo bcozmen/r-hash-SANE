@@ -96,6 +96,8 @@ Decoder (Reconstruction)
 
 Key insight: The model can *understand rotation-invariant structure* in NeRF weight space, but **true disentanglement of rotation vs. content** remains difficult with limited discrete rotations.
 
+![[loss.png]]
+
 ---
 
 ## 🧭 Future Work
