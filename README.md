@@ -100,57 +100,9 @@ Key insight: The model can *understand rotation-invariant structure* in NeRF wei
 
 ---
 
-## 🧭 Future Work
-
-- Larger and continuous-rotation datasets.  
-- Improved positional encodings (concatenative, not additive).  
-- Exploring **continuous rotation interpolation** in latent space.  
-- Rebalancing latent capacity between `[POS]` and content tokens.  
-
----
-
-## 🧑‍💻 Authors
-
-- **Zilong Liu** – Geoinformation Science  
-- **Roman Oelfken** – Information Systems  
-- **Berk Can Özmen** – Computer Science *(repo maintainer)*  
-- **Can-Philipp Tura** – Computer Science  
-
-Technische Universität Berlin  
-
----
-
 ## 📚 References
 
 - Schürholt et al., *Towards Scalable and Versatile Weight Space Learning*, arXiv:2406.09997  
 - Müller et al., *Instant Neural Graphics Primitives*, ACM TOG, 2022  
 - Mildenhall et al., *NeRF: Representing Scenes as Neural Radiance Fields*, CACM, 2021  
 
----
-
-## 🏗️ Repo Structure (expected)
-
-```
-r-hash-SANE/
-│
-├── src/
-│   ├── models/
-│   │   ├── autoencoder.py
-│   │   ├── ntx_head.py
-│   │   └── rotation_head.py
-│   ├── data/
-│   │   ├── dataset_loader.py
-│   │   └── tokenization.py
-│   └── train.py
-│
-├── configs/
-│   └── hyperparams.yaml
-│
-├── results/
-│   ├── logs/
-│   ├── reconstructions/
-│   └── checkpoints/
-│
-├── README.md
-└── requirements.txt
-```
