@@ -1,13 +1,10 @@
 # r-hash-SANE: Weight-Space Learning for NeRFs
 
-> **Neural Radiance Fields meet Structured Affine Neural Embeddings.**  
-> A transformer-based autoencoder for learning 3D scene representations directly in the **weight space** of Instant-NGP models.
-
 ---
 
 ## 🚀 Overview
 
-This project extends the **Structured Affine Neural Embeddings (SANE)** algorithm to **Instant Neural Graphics Primitives (Instant-NGP)** — bringing weight-space learning into the domain of 3D scene representations.
+This project extends the **Sequential Autoencoder for Neural Embeddings (SANE)** algorithm to **Instant Neural Graphics Primitives (Instant-NGP)** — bringing weight-space learning into the domain of 3D scene representations.
 
 Instead of analyzing or generating images, we analyze the **weights** of trained Instant-NGP networks to learn disentangled latent embeddings that encode **object identity** and **rotational transformations**.  
 
